@@ -1,0 +1,104 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	margin: 0px;
+	padding: 0px;
+}
+
+/*Nav Bar*/
+.topnav {
+	display: flex;
+	justify-content: space-around;
+	background-color: black;
+	gap: 0px 10px;
+	padding: 15px;
+}
+
+.topnav a{
+	text-decoration: none;
+	font-size: 25px;
+	text-decoration: none;
+	color: white;
+}
+
+.menu {
+	width: 30px;
+	height: 30px;
+	color: white;
+}
+
+/*header container*/
+.headerContainer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.title h1 {
+	font-size: 70px;
+	padding-top: 30px;
+	margin: 0px;
+	text-align: center;
+}
+
+.subTitle {
+	margin-top: 20px;
+	margin-left: 90px;
+	margin-right: 90px;
+}
+
+.subTitle p {
+	font-size: 30px;
+	text-align: center;
+	
+}
+
+.mainContent {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding-top: 20px;
+	flex-wrap: wrap;
+}
+
+.content {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	padding: 50px;
+	border-top: 0.25px solid gray;
+	flex-wrap: wrap;
+}
+
+.content .text {
+	display: flex;
+	width: 600px;
+}
+
+.content .text p {
+	font-size: 25px;
+}
+
+.content .aloneText {
+	display: flex;
+	width: 1000px;
+}
+
+.content .aloneText p{
+	text-align: center;
+	font-size: 25px;
+}
+
+.content .image {
+	display: flex;
+
+}
+
+.content .image img {
+	width: 560px;
+	height: 440px;
+	object-fit: cover;
+}
